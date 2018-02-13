@@ -1,0 +1,379 @@
+/*时间选择器样式*/
+.el-input--prefix .el-input__inner,.el-input--suffix .el-input__inner{
+    position: relative;
+    width:100%;
+    height:1.75rem;
+    border-radius: 2px;
+    font-size:0.7rem;
+    color:$gray;
+}
+.distpicker-address-wrapper select{
+   padding:5px 20px !important;
+    height:30px !important;
+    font-size:14px !important;
+    width:30%;
+}
+#cvsWraper{
+    width:auto !important;
+}
+.el-dialog{
+    width:80% !important;
+}
+
+//弹出框样式
+.el-message-box__message{
+    width: 285px;
+    display: inline-block;
+}
+.el-message-box__content{
+    text-align:center;
+}
+.el-button--primary{
+    background-color:#399CFF
+}
+
+
+//账号类型输入框
+.accountType .el-input__inner{
+    border:0;
+    background-color:white !important;
+}
+//左侧菜单样式
+.el-menu-item.is-active{
+    background-color:#399CFF !important;
+    color:white !important;
+}
+
+
+//科技创新券设置注释样式
+.note .el-form-item__content{
+    height:auto;
+}
+
+.ticketedit .el-input__inner{
+    width:12rem
+}
+ /*.el-menu-item:hover{
+    background-color:transparent !important;
+}*/
+
+
+//图片上传
+.avatar-uploader .el-upload {
+    border: 1px dashed #d9d9d9;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.avatar-uploader .el-upload:hover {
+    border-color: #409EFF;
+}
+.avatar-uploader-icon {
+    font-size: 28px;
+    color: #8c939d;
+    width: 178px;
+    height: 178px;
+    line-height: 178px;
+    text-align: center;
+}
+.avatar {
+    width: 178px;
+    height: 178px;
+    display: block;
+}
+.avatar-uploader-icon{
+
+}
+
+//头部菜单样式
+.el-menu--horizontal .el-menu-item{
+    color:white;
+}
+.toplogo .el-menu-item.is-active{
+    border-bottom:2px solid white;
+}
+.toplogo .el-menu-item:hover{
+    background-color:#399CFF;
+    color:white;
+}
+
+//查看详情
+.apply .el-input__inner,.detail .el-input__inner{}
+
+//查看详情
+.detail .el-input__inner{
+    border:0;
+}
+.detail .el-form-item{
+    margin-bottom:10px;
+}
+.detail .el-form-item,.detail .el-form-item__label,.detail .el-input__inner,.detail .el-form-item__content{
+    height:20px;
+    line-height:20px;
+}
+.kejiquan .el-input__inner{
+    background: transparent;
+}
+
+
+
+
+
+
+.el-table .cell, .el-table th div, .el-table--border td:first-child .cell, .el-table--border th:first-child .cell{
+    font-size:0.7rem
+}
+
+.el-input__inner{
+    height:34px;
+}
+.el-form-item{
+    height:34px;
+    margin-bottom:15px;
+}
+.el-form-item__content{
+    line-height: 34px;
+    height:34px;
+}
+.el-input--prefix .el-input__inner{
+    padding-left:0.4rem;
+    padding-right:2.1rem;
+    z-index: 1;
+}
+.el-icon-circle-close{
+    position: absolute;
+    right: 0.8rem;
+    z-index: 1;
+}
+.el-form-item.is-error .el-input__validateIcon{
+    position: relative;
+    right: 0;
+}
+.el-icon-time:before{
+    z-index: 2;
+    position: relative;
+    top: 0.2rem;
+    left: 4.8rem;
+    content:''!important;
+    width: 0.9rem;
+    height: 1rem;
+    display: inline-block;
+    @include bis('../static/img/icon_rili.png')
+}
+/*日期选择器*/
+.el-range-editor.el-input__inner{
+    position: relative;
+    width:100%;
+    height:1.75rem;
+    border-radius: 2px;
+    font-size:0.7rem;
+    color:$gray;
+}
+.el-icon-date:before{
+    z-index: 2;
+    position: absolute;
+    top: 0.3rem;
+    content:''!important;
+    width: 0.9rem;
+    height: 1rem;
+    display: inline-block;
+    @include bis('../static/img/icon_rili.png')
+}
+.el-range-editor.el-input__inner .el-icon-date:before{
+    right: .3rem;
+    left:inherit;
+}
+.el-input__prefix{
+    width:100%;
+}
+.el-date-editor.el-input .el-icon-date:before{
+    right: .5rem;
+    top: 0.6rem;
+}
+.el-date-editor .el-range__icon{
+    width:0;
+}
+.el-date-editor .el-range__close-icon{
+    position: absolute;
+    right:1rem;
+}
+.el-range-editor.el-input__inner{
+    width:12.5rem;
+    padding: 1px 5px;
+}
+
+/*下拉选择样式*/
+.el-icon-arrow-up:before{
+    content:''!important;
+    display:inline-block;
+    position: relative;
+    top: 6px;
+    width: 1.2rem;
+    height: 1.2rem;
+    @include bis('../static/img/icon_shang.png')
+}
+.el-icon-arrow-down:before{
+    content:''!important;
+    display:inline-block;
+    position: relative;
+    top: 6px;
+    width: 1.2rem;
+    height: 1.2rem;
+    @include bis('../static/img/icon_xia.png')
+}
+.el-select{
+    width:100%;
+}
+.el-select-dropdown__list{
+    padding:0;
+}
+.el-select-dropdown{
+    margin-top: 0!important;
+    .popper__arrow{
+        display: none;
+    }
+}
+.el-pagination{
+    .el-icon-arrow-up:before{
+        top: 0;
+    }
+}
+/*表格样式*/
+.el-table__body,.el-table__header{
+    border-collapse: collapse!important;
+}
+.el-table--fit{
+    border-right:1px solid $bordercolor!important;
+}
+.el-table thead{
+    color:$gray!important;
+    font-weight: bold!important;
+}
+.el-table th{
+    font-size:.8rem!important;
+    background-color:$pageback!important;
+}
+.el-table td{
+    font-size:.7rem;
+}
+.el-table td, .el-table th{
+    padding:.5rem 0;
+    border-top: 1px solid $bordercolor;
+    border-left: 1px solid $bordercolor;
+}
+.el-button{
+    padding:9px 29px;
+}
+.el-button--text{
+    color:$topgreen!important;
+}
+.el-button--text:hover{
+    color:$logoback!important;
+}
+.el-table--enable-row-hover .el-table__body tr:hover>td{
+    background-color:$pageback!important;
+}
+/*去掉boxshadow*/
+.el-radio-button:focus:not(.is-focus):not(:active){
+    box-shadow:none!important;
+}
+.el-radio__input.is-checked .el-radio__inner{
+    border-color:#399CFF;
+    background:#399CFF;
+}
+.el-radio__input.is-checked+.el-radio__label{
+    color:#333333
+}
+
+
+/*单选框选中样式*/
+.el-checkbox__input.is-checked .el-checkbox__inner, .el-checkbox__input.is-indeterminate .el-checkbox__inner{
+    background-color: #399CFF;
+    border-color: #399CFF;
+}
+.el-checkbox__input.is-checked+.el-checkbox__label{
+    color:#399CFF
+}
+/*输入框样式*/
+.inputsize{
+    width:15.5rem;
+    .el-input__inner{
+       /* height:34px;*/
+        border-radius: 2px;
+        height:2.25rem;
+        font-size: .9rem;
+        padding-right:1.5rem;
+    }
+    .el-textarea__inner{
+        border-radius: 2px;
+        font-size: .9rem;
+    }
+}
+.inputsizeout2{
+    .el-form-item{
+        margin-bottom: .8rem;
+    }
+}
+.inputsize2{
+    @include wh(15.5rem,1.7rem);
+    .el-input__inner{
+        border-radius: 2px;
+        height:1.7rem;
+        font-size: .9rem;
+        padding-right:1.5rem;
+    }
+}
+.el-form-item__label{
+    line-height:34px;
+    width: 130%;
+    font-size: 0.7rem;
+    color:$gray;
+}
+/*提示样式*/
+.el-message-box__content{
+    padding: 20px 15px;
+}
+.el-message-box__header{
+    background-color:$pageback;
+}
+.el-message-box__btns{
+    border-top:1px solid $bordercolor;
+}
+.el-message-box__btns{
+    button{
+        padding: 10px 30px;
+        font-size:14px;
+    }
+
+}
+.wrapper_redstyle{
+    .el-message-box__btns{
+        button:nth-child(1){
+            background-color:$red_h;
+            border:1px solid $red_h;
+            color:$wihte_c;
+        }
+        button:nth-child(1):hover{
+            background-color:$red_c;
+        }
+        button:nth-child(2){
+            background-color:$wihte_c;
+            color:$gray;
+            border:1px solid $bordercolor;
+        }
+        button:nth-child(2):hover{
+            background-color:$green_h;
+            border:1px solid $green_b;
+        }
+    }
+}
+.el-checkbox-group{
+    width: 337px;
+}
+.el-checkbox+.el-checkbox{
+    margin-left: 0;
+}
+.el-checkbox{
+    width:160px;
+}
